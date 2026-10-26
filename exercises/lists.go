@@ -5,6 +5,10 @@ package exercises
 //
 // TODO
 func Sum(numbers []int) int {
+	// Hinweis:
+	// Starten Sie mit einer Variablen für die Summe und addieren Sie
+	// in einer Schleife jede Zahl der Liste dazu.
+
 	return 0
 }
 
@@ -14,6 +18,9 @@ func Sum(numbers []int) int {
 //
 // TODO
 func Product(a []int, b []int) []int {
+	// Hinweis:
+	// Gehen Sie vor wie in `Add` aus den Beispielen.
+
 	return []int{}
 }
 
@@ -23,6 +30,12 @@ func Product(a []int, b []int) []int {
 //
 // TODO
 func Repeat(pattern []int, length int) []int {
+	// Hinweis:
+	// - Das Element an Stelle `i` des Ergebnisses ist ein Element von
+	//   `pattern`. Welcher Index gehört zu `i`?
+	// - Der Rest bei der Division durch `len(pattern)` hilft dabei,
+	//   so wie `i%2` in `EveryOther` aus den Beispielen.
+
 	return []int{}
 }
 
@@ -34,5 +47,8 @@ func Repeat(pattern []int, length int) []int {
 //
 // TODO
 func WeightedSum(numbers []int, weights []int) int {
+	// Hinweis:
+	// Sie brauchen keine eigene Schleife: Kombinieren Sie `Sum` und `Product`.
+
 	return 0
 }

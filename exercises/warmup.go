@@ -5,6 +5,9 @@ package exercises
 //
 // TODO
 func Scale(numbers []int, factor int) []int {
+	// Hinweis:
+	// Gehen Sie vor wie in `Double` aus den Beispielen.
+
 	return []int{}
 }
 
@@ -13,6 +16,10 @@ func Scale(numbers []int, factor int) []int {
 //
 // TODO
 func AllDigits(numbers []int) bool {
+	// Hinweis:
+	// - Sobald eine Zahl keine Ziffer ist, steht das Ergebnis fest.
+	// - Welches Ergebnis ist für die leere Liste richtig?
+
 	return false
 }
 
@@ -23,5 +30,10 @@ func AllDigits(numbers []int) bool {
 //
 // TODO
 func MissingToMultiple(n int, m int) int {
+	// Hinweis:
+	// - `n%m` gibt an, wie weit `n` über der letzten durch `m`
+	//   teilbaren Zahl liegt.
+	// - Ist dieser Rest `0`, muss auch das Ergebnis `0` sein, nicht `m`.
+
 	return 0
 }

@@ -10,6 +10,11 @@ package exercises
 //
 // TODO
 func ISBN10CheckDigit(digits []int) int {
+	// Hinweis:
+	// Gehen Sie vor wie in `EANCheckDigit`, aber mit anderen Gewichten
+	// und mit `11` statt `10`. Die Gewichte können Sie direkt als
+	// Liste angeben.
+
 	return 0
 }
 
@@ -19,5 +24,9 @@ func ISBN10CheckDigit(digits []int) int {
 //
 // TODO
 func IsValidISBN10(digits []int) bool {
+	// Hinweis:
+	// Gehen Sie vor wie in `IsValidEAN`. Die Prüfziffer erhält das
+	// Gewicht `1`, die Summe muss durch `11` teilbar sein.
+
 	return false
 }

@@ -11,6 +11,10 @@ package exercises
 //
 // TODO
 func EANCheckDigit(digits []int) int {
+	// Hinweis:
+	// Die Gewichte erhalten Sie mit `Repeat`, die gewichtete Summe
+	// mit `WeightedSum` und die Prüfziffer mit `MissingToMultiple`.
+
 	return 0
 }
 
@@ -19,5 +23,10 @@ func EANCheckDigit(digits []int) int {
 //
 // TODO
 func IsValidEAN(digits []int) bool {
+	// Hinweis:
+	// - Prüfen Sie zuerst die Länge.
+	// - Die gewichtete Summe aller `13` Ziffern, mit `1` für die Prüfziffer,
+	//   ist bei einer gültigen EAN durch `10` teilbar.
+
 	return false
 }
